@@ -1,0 +1,24 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.salamander.astatine.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinChunkGenerator",
+    "MixinWorldGenSettings",
+    "access.BiomeAccess",
+    "access.BiomeConditionSourceAccess",
+    "access.ClimateSettingsAccess",
+    "access.ImprovedNoiseAccess",
+    "access.NoiseBasedChunkGeneratorAccess",
+    "access.NormalNoiseAccess",
+    "access.PerlinNoiseAccess",
+    "access.SurfaceSystemAccess",
+    "access.WorldPresetAccess"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
